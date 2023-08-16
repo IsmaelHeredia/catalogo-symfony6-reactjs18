@@ -5,7 +5,7 @@ Es un programa que funciona como catalogo de productos en PHP, esta hecho en Sym
 Se puede cargar productos con fotos y categorias con iconos, tambien tiene una sección donde se muestran los productos y categorias a los 
 visitantes y una sección de administración para gestionar los productos y categorias.
 
-Unas imagenes : 
+Unas imágenes : 
 
 ![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdZv_QBRKlGaUa6RsUVBwohizuTHo9QVHgPw_JoDvYA6nCHI3lRvIgA9evZr8Pam_yox9l8QW2sGBfflk92EHqkzjOMxnkw-cY49K6DoSjHiATPBgKqq7v-fBSrfudfXn051uSUICLVeXLUGJiQiQiA3dvtQh9x1YU3dYpJ-2BJzpSL2ROhgR5jfzAaYs/s633/cat1.png)
 
@@ -33,7 +33,7 @@ Tambien se debe editar el archivo .env en la siguiente seccion con sus respectiv
 # DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7"
 ```
 
-Despues deben modificar el SECRET_KEY por la clave que quieran para el uso de JWT como metodo para una autentificacion segura.
+Despues deben modificar el SECRET_KEY por la clave que quieran para el uso de JWT como metodo para una autentificación segura.
 
 Ademas en el mismo directorio del backend hay un archivo llamado bd_catalogo.sql que deben correr para instalar los datos por defecto, el usuario y la contraseña seran
 supervisor.
