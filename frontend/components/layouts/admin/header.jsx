@@ -65,7 +65,7 @@ class Header extends Component {
                       <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="themes">Administrar <span className="caret"></span></a>
                       <div className="dropdown-menu" aria-labelledby="categorias">
                         <a className="dropdown-item" href="/administracion/productos">Productos</a>
-                        <a className="dropdown-item" href="/administracion/categorias">Categorias</a>
+                        <a className="dropdown-item" href="/administracion/categorias">Categorías</a>
                         {id_tipo == 1 &&
                           <a className="dropdown-item" href="/administracion/usuarios">Usuarios</a>
                         }
