@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mini-espacio {
+  margin-top: 1em;
+}
+
+.espacio {
+    margin-top: 2em;
+}
+
+.doble-espacio {
+    margin-top: 3em;
+}
+
+.espacio-icono {
+    margin-right:5px;
+}
+
+.ingreso {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+}
+
+.contenedor {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 60px;
+  color:white;
+}
+
+.danger {
+  background-color: red !important;
+}
+
+.loading-indicator:before {
+  content: '';
+  background: #000000cc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.loading-indicator:after {
+  content: 'Cargando ...';
+  /*content:url('cargando.svg');*/
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  z-index: 1001;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+  font-size:1.5rem;        
+}
+
+.imagen-lista {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-icono {
+  width: 30px;
+  height: 30px;
+}
+
+.imagen-card {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
